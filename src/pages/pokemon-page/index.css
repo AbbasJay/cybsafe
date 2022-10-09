@@ -1,0 +1,49 @@
+.return-link {
+  display: flex;
+  position: absolute;
+}
+
+.pokemon-page {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(to right, lightblue, #3466af);
+}
+
+.pokemon {
+  display: grid;
+  margin: auto;
+  width: 400px;
+  border: 4px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffcb05;
+}
+
+.pokemon-name-health {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.pokemon-img {
+  width: inherit;
+  min-height: 500px;
+}
+
+.pokemon-description {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.pokemon-characteristics {
+  margin-bottom: 10px;
+}
+
+.pokemon-characteristics > span {
+  font-weight: bold;
+}
+
+.pokemon-characteristics > div {
+  display: flex;
+  flex-direction: column;
+}
